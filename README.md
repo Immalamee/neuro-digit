@@ -1,4 +1,4 @@
-# Handwritten-Digit-Classifier
+# Распознаватель цифр
 
 Простой проект: сверточная нейронная сеть (Keras/TensorFlow), распознающая цифры 0–9.
 Обучение на MNIST, скрипт для предсказания изображений, нарисованных в Paint.
@@ -21,5 +21,6 @@ pip install -r requirements.txt
 python train_model.py
 
 3. Ну и сделать предсказание
+
 
 python predict.py demo_paint_examples/1.png
